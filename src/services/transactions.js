@@ -1,7 +1,7 @@
 import axios from "axios";
 import Cookies from "js-cookie";
 
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://bancodio.onrender.com/";
 
 export function findAllTransaction() {
   const response = axios.get(`${BASE_URL}/transactions`, {
